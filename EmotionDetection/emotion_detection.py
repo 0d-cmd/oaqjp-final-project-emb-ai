@@ -12,7 +12,7 @@ def emotion_detector(text_to_analyze):
     fear = formatted_response['emotionPredictions'][0]['emotion']['fear']
     joy = formatted_response['emotionPredictions'][0]['emotion']['joy']
     sadness = formatted_response['emotionPredictions'][0]['emotion']['sadness']
-    emotions = {'anger':anger, 'disgust':disgust, 'fear':fear,'sadness':sadness, 'joy':joy}
+    emotions = {'anger':anger, 'disgust':disgust, 'fear':fear, 'joy':joy, 'sadness':sadness}
     dominant_emotion = None
     
     prev = 0
